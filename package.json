@@ -1,7 +1,9 @@
 {
   "name": "react-flask-template",
   "version": "0.1.0",
-  "private": true,
+  "author": "Nikhil Mohite(www.github.com/nkilm)",
+  "description": "Starting template for using React with Flask as backend",
+  "private": false,
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
