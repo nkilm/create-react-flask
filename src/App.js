@@ -1,6 +1,8 @@
 import React, { useState, useEffect } from "react";
 import axios from "axios";
 
+import "./App.css";
+
 // backend Flask URL with it's PORT number
 const URL = "http://localhost:6060/"
 
@@ -23,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <h1 id="heading">React-Flask Template</h1>
-      <p><a href="www.github.com/nkilm/react-flask-template" target="_blank">Star⭐ on GitHub </a></p>
+      <p className="credits">Star⭐ on GitHub: <a href="https://www.github.com/nkilm/react-flask-template" target="_blank" rel="noreferrer">https://www.github.com/nkilm/react-flask-template</a></p>
       <div className="content"></div>
       {backendResponse.status === 200 ?
         <p className="success">{backendResponse.data.info}</p> :
