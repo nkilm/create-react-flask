@@ -23,9 +23,11 @@ function App() {
   return (
     <div className="App">
       <h1 id="heading">React-Flask Template</h1>
-      {backendResponse.status===200?
-      <p className="success">{backendResponse.data.info}</p>:
-      <p className="error">Error! Please check console for more details...</p>
+      <p><a href="www.github.com/nkilm/react-flask-template" target="_blank">Star⭐ on GitHub </a></p>
+      <div className="content"></div>
+      {backendResponse.status === 200 ?
+        <p className="success">{backendResponse.data.info}</p> :
+        <p className="error">Error! Please check console for more details...</p>
       }
     </div>
   );
