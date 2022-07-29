@@ -1,9 +1,13 @@
 {
-  "name": "react-flask-template",
+  "name": "create-react-flask",
   "version": "0.1.0",
   "author": "Nikhil Mohite(www.github.com/nkilm)",
   "description": "Boilerplate for using React with Flask as backend",
-  "private": false,
+  "bin": "./bin/cli.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nkilm/create-react-flask"
+  },
   "dependencies": {
     "@testing-library/jest-dom": "^5.16.4",
     "@testing-library/react": "^13.3.0",
