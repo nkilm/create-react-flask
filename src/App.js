@@ -25,7 +25,7 @@ function App() {
   return (
     <div className="App">
       <h1 id="heading">React-Flask Template</h1>
-      <p className="credits">Star⭐ on GitHub: <a href="https://www.github.com/nkilm/react-flask-template" target="_blank" rel="noreferrer">https://www.github.com/nkilm/react-flask-template</a></p>
+      <p className="credits">Star⭐ on GitHub: <a href="https://www.github.com/nkilm/create-react-flask" target="_blank" rel="noreferrer">https://www.github.com/nkilm/create-react-flask</a></p>
       <div className="content"></div>
       {backendResponse.status === 200 ?
         <p className="success">{backendResponse.data.info}</p> :
