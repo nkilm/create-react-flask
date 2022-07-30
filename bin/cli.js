@@ -1,11 +1,11 @@
-const {exeSync} = require('child_process');
+const {execSync} = require('child_process');
 
-const URL = "https://github.com/nkilm/react-flask-template";
+const URL = "https://github.com/nkilm/create-react-flask";
 const repositoryName = process.argv[2];
 
 const runCommand = cmd =>{
     try{
-        exeSync(cmd,{stdio: 'inherit'});
+        execSync(cmd,{stdio: 'inherit'});
     } catch (err){
         console.log(`Failed to execute ${cmd}`,err);
         return false;
