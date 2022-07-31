@@ -1,6 +1,6 @@
 {
   "name": "create-react-flask",
-  "version": "0.1.0",
+  "version": "0.3.0",
   "author": "Nikhil Mohite(www.github.com/nkilm)",
   "description": "Boilerplate for using React with Flask as backend",
   "bin": "./bin/cli.js",
