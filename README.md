@@ -1,6 +1,6 @@
 # Create React Flask 
 ```bash
-npx create-react-flask@latest my-app
+npx create-react-flask  my-app
 ```
 # Usage
 
