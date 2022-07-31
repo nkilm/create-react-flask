@@ -1,9 +1,14 @@
-
+# Create React Flask 
+```bash
+npx create-react-flask@latest my-app
+```
 # Usage
 
 `NOTE: First run server i.e, main.py`
 
 ## Backend
+
+#### If you have `git bash` on Windows machine, you can directly run `bash init-server.sh` 
 - Create virtual environment for python
 ```bash
 cd backend-flask
