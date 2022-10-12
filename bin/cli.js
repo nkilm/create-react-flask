@@ -1,6 +1,7 @@
 #!/usr/bin/env node
 const fs = require("fs");
 const path = require("path");
+
 const { execSync } = require("child_process");
 
 const URL = "https://github.com/nkilm/create-react-flask";
